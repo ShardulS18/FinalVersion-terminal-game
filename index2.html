@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Console</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="terminal-container">
+      <div id="hoverboard">
+        <div class="text-container">
+          <span data-tooltip="Used to change directories => cd (location)">cd</span>
+          <span data-tooltip="Go back to previous directory">cd ..</span>
+          <span data-tooltip="List the location(directories) or objects(files) to explore">ls</span>
+          <span data-tooltip="Display the present directory">pwd</span>
+          <span data-tooltip="To delete a directory">rmdir</span>
+          <span data-tooltip="To create a new directory">mkdir</span>
+          <span data-tooltip="Clear the terminal">clear</span>
+        </div>
+      </div>
+      
+    </div>
+    <div id="pixi-container"></div>
+  </div>
+  <script src="node_modules/@xterm/xterm/lib/xterm.js"></script>
+  <script src="node_modules/pixi.js/dist/pixi.min.js"></script>
+  <script src="node_modules/gsap/dist/gsap.min.js"></script>
+  <audio id="backgroundMusic1" loop src="background_music_level1.wav" preload="auto"></audio>
+  <audio id="cave" src="cave.mp3" preload="auto"></audio>
+  <audio id="forest_scene" src="forest_scene.wav" preload="auto"></audio>
+  <audio id="mothertree_scene" src="mothertree_scene.wav" preload="auto"></audio>
+  <audio id="path_forming" src="path_forming.wav" preload="auto"></audio>
+  <audio id="shrine_bell" src="shrine_bell.wav" preload="auto"></audio>
+  <audio id="shrine_crumbling" src="shrine_crumbling.wav" preload="auto"></audio>
+  <audio id="shrine" src="shrine.wav" preload="auto"></audio>
+  <script src="Level1.js"></script>
+</body>
+</html>
