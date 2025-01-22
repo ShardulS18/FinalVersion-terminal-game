@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@xterm/xterm": "^5.5.0",
+    "gsap": "^3.12.5",
+    "pixi-sound": "^3.0.5",
+    "pixi.js": "^8.6.4"
+  }
+}
