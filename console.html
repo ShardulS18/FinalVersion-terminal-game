@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Console</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="terminal-container">
+      <div id="hoverboard">
+        <div class="text-container">
+          <span data-tooltip="Used to change directories => cd (location)">cd</span>
+          <span data-tooltip="List the options available">ls</span>
+          <span data-tooltip="Who are you?">whoami</span>
+          <span data-tooltip="Display contents of a file">cat</span>
+          <span data-tooltip="Exit from a file">q</span>
+          <span data-tooltip="Go back to previous directory">cd ..</span>
+          <span data-tooltip="Clear the terminal">clear</span>
+        </div>
+      </div>
+      
+    </div>
+    <div id="pixi-container"></div>
+  </div>
+  <script src="node_modules/@xterm/xterm/lib/xterm.js"></script>
+  <script src="node_modules/pixi.js/dist/pixi.min.js"></script>
+  <script src="node_modules/gsap/dist/gsap.min.js"></script>
+  <audio id="backgroundMusic0" loop src="background_music_level0.wav" preload="auto"></audio>
+  <audio id="alarm_clock" src="alarm_clock.mp3" preload="auto"></audio>
+  <audio id="footsteps_level0" src="footsteps_level0.mp3" preload="auto"></audio>
+  <audio id="footsteps_to_washroom" src="footsteps_to_washroom.mp3" preload="auto"></audio>
+  <audio id="phone_pickup" src="phone_pickup.wav" preload="auto"></audio>
+  <audio id="portal_opening" src="portal_opening.mp3" preload="auto"></audio>
+  <audio id="teeth_brushing" src="teeth_brushing.mp3" preload="auto"></audio>
+  <audio id="water_running" src="water_running.mp3" preload="auto"></audio>
+  <audio id="ocean_waves" src="ocean_waves.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
