@@ -21,7 +21,7 @@ body {
 
 
   /* background-color: rgba(0, 0, 0, 0.4); */
-  background-image: url('Assets/compressed2k.gif');
+  background-image: url('Assets/galaxy.svg');
   background-blend-mode: multiply;
     background-size: cover; 
     background-position: center center; 
