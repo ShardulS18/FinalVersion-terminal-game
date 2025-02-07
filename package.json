@@ -4,5 +4,14 @@
     "gsap": "^3.12.5",
     "pixi-sound": "^3.0.5",
     "pixi.js": "^8.6.4"
+  },
+"scripts": {
+  "deploy": "gh-pages -d ."
+}
+,
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+    
   }
 }
+
